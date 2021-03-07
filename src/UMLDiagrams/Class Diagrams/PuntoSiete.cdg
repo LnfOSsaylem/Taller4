@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ClassDiagram name="PuntoSiete">
+  <ClassDiagramComponents>
+    <Class name="Cuenta" package="" visibility="public" xPosition="175.0" yPosition="97.0">
+      <Fields>
+        <Field name="noCuenta" type="int" visibility="private"/>
+        <Field name="nombreCliente" type="String" visibility="private"/>
+        <Field name="saldo" type="double" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public"/>
+      </Constructors>
+      <Methods>
+        <Method name="getNoCuenta" returnType="int" visibility="public"/>
+        <Method name="getNombreCliente" returnType="String" visibility="public"/>
+        <Method name="getSaldo" returnType="double" visibility="public"/>
+        <Method name="setNoCuenta" returnType="void" visibility="public">
+          <Argument type="int" name="n"/>
+        </Method>
+        <Method name="setNombreCliente" returnType="void" visibility="public">
+          <Argument type="String" name="name"/>
+        </Method>
+        <Method name="setSaldo" returnType="void" visibility="public">
+          <Argument type="double" name="v"/>
+        </Method>
+        <Method name="consignar" returnType="boolean" visibility="public">
+          <Argument type="double" name="monto"/>
+        </Method>
+        <Method name="retirar" returnType="boolean" visibility="public">
+          <Argument type="double" name="monto"/>
+        </Method>
+      </Methods>
+    </Class>
+  </ClassDiagramComponents>
+  <ClassDiagramRelations/>
+</ClassDiagram>

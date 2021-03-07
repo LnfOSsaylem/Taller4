@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ClassDiagram name="PuntoCuatro">
+  <ClassDiagramComponents>
+    <Class name="Bicicleta" package="" visibility="public" xPosition="295.0" yPosition="225.0">
+      <Fields>
+        <Field name="velocidadActual" type="double" visibility="private"/>
+        <Field name="platoActual" type="int" visibility="private"/>
+        <Field name="pinonActual" type="int" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public"/>
+      </Constructors>
+      <Methods>
+        <Method name="setvelocidadActual" returnType="void" visibility="public">
+          <Argument type="double" name="velocidad"/>
+        </Method>
+        <Method name="setcambiarPlato" returnType="void" visibility="public">
+          <Argument type="int" name="plato"/>
+        </Method>
+        <Method name="setcambiarPinon" returnType="void" visibility="public">
+          <Argument type="int" name="pinon"/>
+        </Method>
+        <Method name="getvelocidadActual" returnType="double" visibility="public"/>
+        <Method name="getcambiarPlato" returnType="int" visibility="public"/>
+        <Method name="getcambiarPinon" returnType="int" visibility="public"/>
+        <Method name="acelerar" returnType="double" visibility="public"/>
+        <Method name="frenar" returnType="double" visibility="public"/>
+      </Methods>
+    </Class>
+  </ClassDiagramComponents>
+  <ClassDiagramRelations/>
+</ClassDiagram>

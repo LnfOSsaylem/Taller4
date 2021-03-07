@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ClassDiagram name="PuntoCinco">
+  <ClassDiagramComponents>
+    <Class name="Producto" package="" visibility="public" xPosition="183.0" yPosition="122.0">
+      <Fields>
+        <Field name="codigo" type="String" visibility="private"/>
+        <Field name="nombre" type="String" visibility="private"/>
+        <Field name="precio" type="double" visibility="private"/>
+        <Field name="porcentaje" type="double" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public"/>
+      </Constructors>
+      <Methods>
+        <Method name="setCodigo" returnType="void" visibility="public">
+          <Argument type="String" name="codigo"/>
+        </Method>
+        <Method name="setNombre" returnType="void" visibility="public">
+          <Argument type="String" name="nombre"/>
+        </Method>
+        <Method name="setPrecio" returnType="void" visibility="public">
+          <Argument type="double" name="precio"/>
+        </Method>
+        <Method name="setPorcentaje" returnType="void" visibility="public">
+          <Argument type="double" name="porcentaje"/>
+        </Method>
+        <Method name="getCodigo" returnType="String" visibility="public"/>
+        <Method name="getNombre" returnType="String" visibility="public"/>
+        <Method name="getPrecio" returnType="double" visibility="public"/>
+        <Method name="getPorcentaje" returnType="double" visibility="public"/>
+        <Method name="precioVenta" returnType="double" visibility="public"/>
+      </Methods>
+    </Class>
+  </ClassDiagramComponents>
+  <ClassDiagramRelations/>
+</ClassDiagram>
